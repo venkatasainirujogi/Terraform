@@ -1,0 +1,17 @@
+
+resource "aws_instance" "name" {
+  
+  ami = "ami-0c55b159cbfafe1f0"
+  instance_type = "t2.micro"
+
+
+lifecycle {
+  ignore_changes = [instance_type]
+}
+lifecycle {
+  prevent_destroy = false
+}
+lifecycle {
+  create_before_destroy = false
+}
+}
