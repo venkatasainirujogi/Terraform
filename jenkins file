@@ -81,5 +81,5 @@ curl -LO "https://github.com/GoogleCloudPlatform/terraformer/releases/download/$
 chmod +x terraformer-${PROVIDER}-linux-amd64
 sudo mv terraformer-${PROVIDER}-linux-amd64 /usr/local/bin/terraformer
 
-#---------------git installfor ubantu(sudo apt install git -y) ---------------
+#---------------git installfor ubantu(sudo apt install git -y) ----------------
 
