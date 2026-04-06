@@ -35,7 +35,7 @@ sudo yum -y install terraform
 
 
 
-#---------------------------Maven install -------------
+#---------------------------Maven install --------------
 sudo yum install maven -y
 
 #---------------------------kubectl install ---------------
